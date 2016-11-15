@@ -13,8 +13,9 @@ as little disturbance to the audio system as possible.
 
 CAVEATS:
 * It globally changes the default audio output for a while.
+  Longer with f, shorter with t.
 * If the program closes its audio output and opens a new one,
-  that won't be recorded.
+  that won't be recorded with t, but only with f.
 * This relies on PulseAudio, it won't work with jack or pure alsa."
 
 
